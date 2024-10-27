@@ -1,0 +1,73 @@
+
+
+.testimonial-container{
+
+  min-width: 40%;
+    min-height: 235px;
+    background-color: rgb(43,43,43);
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    top: 200px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+body{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255,255,255);
+}
+
+h1{
+
+    color: black;
+    text-align: center;
+    font-size: 10vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0px;
+    padding-top: 2rem;
+}
+
+
+
+.Container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 20%;
+    
+    padding: 1rem;
+}
+
+.img{
+
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-container{
+
+    position: absolute;
+    bottom: 11%;
+    z-index: 100;
+}
+
+
+.text-container{
+
+    margin-top: 5rem;
+    
+}
+
+.text-container p{
+
+    line-height: 30px;
+}
